@@ -19,7 +19,7 @@ int main() {
     }
 
 
-    printf("\nComunicado ao alunos:\n");
+    printf("\nInformações dos alunos:\n");
     for (int i = 0; i < 3; i++) {
         printf("Aluno %d:\n", i + 1);
         printf("Nome: %s\n", alunos[i].nome);
