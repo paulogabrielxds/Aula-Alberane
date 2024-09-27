@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 int main(void) {
-    int a, b, c;
-    int soma;
+    float a, b, c;
+    float media;
 
-    printf("Digite um numero: ");
-    scanf("%d", &a);
+    printf("Digite o primeiro valor: ");
+    scanf("%f", &a);
 
-    printf("Digite outro numero: ");
-    scanf("%d", &b);
+    printf("Digite o segundo valor: ");
+    scanf("%f", &b);
 
-    printf("Digite outro numero: ");
-    scanf("%d", &c);
+    printf("Digite o terceiro valor: ");
+    scanf("%f", &c);
 
-    soma = a + b + c;
+    media = (a + b + c) / 3;
 
-    printf("Soma Total: %d", soma);
+    printf("Media: %.2f\n", media);
 
-    return 0;
+
 }
