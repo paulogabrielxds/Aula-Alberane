@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 struct Aluno {
     char nome[50];
     int idade;
@@ -25,4 +27,5 @@ int main() {
         printf("Nota: %.2f\n", alunos[i].nota);
         printf("\n");
     }
-
+    return 0;
+}
