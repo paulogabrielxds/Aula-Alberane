@@ -1,14 +1,21 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 
-int main() {
-    char palavra[50];
-    printf("Digite uma palavra:");
-    fgets(palavra, 50, stdin);
+int main()
+{
+    int Matriz[2][2];
+    printf("Digite os valores de matriz:\n");
+    scanf("%d %d",&Matriz[0][0],&Matriz[0][1]);
+    Matriz[1][0] = Matriz[0][0];
+    Matriz[1][1] = Matriz[0][1];
+    printf("Matriz A:\n");
+    for(int i=0;i<2;i++){
 
-    printf("A palavra foi %s\n", palavra);
-    int tamanho = strlen(palavra);
-
-    printf("A quantidade de letras é %d\n", tamanho-1);
-    return 0;
+    }
+    Matriz[0][0] = 0;
+    Matriz[0][1] = 0;
+    Matriz[1][0] = 0;
+    Matriz[1][1] = 0;
+    printf("Matriz:2X2\n");
 }
+
